@@ -6,26 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- below is the name of the web page -->
     <title>First Webpage</title>
-
-    <!-- below is CSS command; changes globaly throughout the webpage-->>
-    <style>
-        h1 {
-            color: blueviolet;
-            size: 50px;
-        }
-        p {
-            background-color: burlywood;
-        }
-    </style>
+    <link rel="stylesheet" href="./styles.css"/>
 </head>
 
 <!-- below is the content within the page -->
 <body>
 
-    <!-- Below CSS command(in html h1 command) only change the local ones-->>
-    <h1 style="color:brown; font-size: 40px; background: rgb(238, 170, 170)">
+    <!-- class=""style command when working with CSS will seperate the content fromt the rest rather than modify as a group.-->
+    <h1 class="first-heading" style>
         Working with HTML & CSS
     </h1>
+
+    <header>
+        Working HTML5 semantic elements.
+    </header>
+
+    <article>
+        <section>
+            <p class="fs"style>
+                first section
+            </p>
+        </section>
+        <section>
+            <p>
+                second section
+            </p>
+        </section>
+    </article>
 
     What's up Joe Biden
     <!-- This is paragraph tag -->
@@ -44,7 +51,8 @@
 
 </p>
 
-<h1>
+<!-- class=""style command when working with CSS will seperate the content fromt the rest rather than modify as a group.-->
+<h1 class="second-heading" style>
     More memes
 </h1>
 
