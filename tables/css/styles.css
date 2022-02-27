@@ -1,0 +1,10 @@
+header{
+    color: blue;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(197, 164, 140);
+    border: 3px solid brown;
+    border-radius: 5px;
+}
