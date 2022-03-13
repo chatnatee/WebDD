@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="header">Hellooo</h1>
+    <h2 id="header2">Second heading</h2>
+
+    <script>
+        
+        const message = 'Working with Scripts'
+        // store the message as a variable
+
+        document.getElementById('header').innerHTML = message
+        // 'header' should exist in side body NOT INSIDE SCRIPT
+        // replace header with message (variable)
+
+        function test(){
+            console.log('Inside funciton test() :->', message)
+        }
+        // test out function (JS)
+        // add message (variable)
+
+        test()
+        // call in function
+        
+    </script>
+</body>
+</html>
