@@ -40,12 +40,22 @@
 
     </form>
     <script>
+
+        //regular function
         function onsubmitFunction(){
             console.log('Click submit button, now inside handler...')
             alert('submit button clicked..!!')
         }
         onsubmitFunction()
 
+        const test1 = 'string'
+
+        //using arrow funciton.. just like defining variables
+        const test2 = () => {
+            console.log('Using arrow functions...!')
+        }
+
+        test2()
     </script>
 </body>
 </html>
