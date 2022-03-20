@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+    color: darkkhaki;
+    line-height: 1.5;
+    background-color: blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.container{
+    max-width: 800px;
+    background-color: cornflowerblue;
+    margin: 100px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /*px, percentile, cm, repeat("number", 1fr), etc...*/
+    gap: 10px;
+    /* row-gap: 30px;
+    column-gap: 10px; */
+
+}
+
+.element{
+    background-color: darkblue;
+    padding: 10px;
+    border:coral 2px solid;
+
+}
+
+
+
